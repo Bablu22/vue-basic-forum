@@ -14,6 +14,9 @@ body {
         font-size: 16px;
     }
 }
+#nprogress .bar{
+    background: #57AD8D !important;
+}
 
 @media (min-width: 240px) and (max-width: 1023px) {
     html {
@@ -504,7 +507,7 @@ figcaption {
 }
 
 .post-content blockquote.small {
-/ / display: flex;
+    display: flex;
     position: relative;
     flex-direction: column;
     border: 2px solid rgba(152, 152, 152, 0.15);

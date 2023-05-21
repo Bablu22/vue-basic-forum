@@ -23,29 +23,29 @@ export default {
   font-family: Arial, sans-serif;
 }
 
-h1 {
+.not-found h1 {
   font-size: 6rem;
   margin: 0;
 }
 
-p {
+.not-found p {
   font-size: 2rem;
   margin: 0;
   margin-bottom: 2rem;
 }
 
-img {
+.not-found img {
   width: 300px;
   margin-bottom: 2rem;
 }
 
-router-link {
+.not-found router-link {
   font-size: 1.5rem;
   text-decoration: none;
   color: #007bff;
 }
 
-router-link:hover {
+.not-found router-link:hover {
   text-decoration: underline;
 }
 </style>
